@@ -165,7 +165,7 @@
 import { ref, computed, watch, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 const router = useRouter();
-const url_front = 'http://localhost:8082/';
+const url_front = 'http://localhost:8080/';
 
 const paperInfos = ref([]);
 const isLoading = ref(true);

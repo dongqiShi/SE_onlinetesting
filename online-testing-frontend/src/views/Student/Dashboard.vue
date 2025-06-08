@@ -126,7 +126,7 @@ import axios from 'axios'; // Assuming axios is installed
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
-const url_front = 'http://localhost:8082/';
+const url_front = 'http://localhost:8080/';
 
 const currentTab = ref('ongoing'); // Default to ongoing exams
 const notStartedExams = ref([]);

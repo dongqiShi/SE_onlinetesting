@@ -59,7 +59,7 @@ import { useRouter } from 'vue-router';
 const router = useRouter();
 const isLoading = ref(true); // Added for loading state
 const paperInfos = ref([]);
-const url_front = 'http://localhost:8082/';
+const url_front = 'http://localhost:8080/';
 
 // const constId = ref(3); // Hardcoded courseId filter for fetching, consider making dynamic or removing if API fetches all
 // const creator = ref(""); // Creator filter for fetching

@@ -221,7 +221,7 @@ onMounted(() => {
   const id = teacherId.value;
   finalTeacherId.value = id !== -1 ? parseInt(id, 10) : 5211314;
 });
-const url_front = 'http://localhost:8082/';
+const url_front = 'http://localhost:8080/';
 
 const QUESTION_TYPE_MAP_TO_CHINESE = {
   'Single Choice': '单选',

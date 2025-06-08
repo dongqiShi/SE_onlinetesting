@@ -68,7 +68,7 @@ import { useRoute, useRouter } from 'vue-router';
 
 const route = useRoute();
 const router = useRouter();
-const url_front = 'http://localhost:8082/';
+const url_front = 'http://localhost:8080/';
 
 const isedit = ref(false);
 const isLoading = ref(true); // Added loading state
